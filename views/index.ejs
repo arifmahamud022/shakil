@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/news style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+
+  <body class="bg-gray-700">
+    <div class="container mx-auto">
+      <!-- Header -->
+      <div class="w-full bg-slate-400"><%- include('header'); -%></div>
+      <!-- Header -->
+      <!-- Main -->
+      <div class="w-full bg-white">
+        <% if(flashsms == ''){ }else{ %>
+        <div class="w-full text-center mb-4">
+          <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800"
+            role="alert">
+            <span class="font-medium"><%= flashsms %></span>
+          </div>
+        </div>
+        <% }; %>
+        <% if(flasherr == ''){ }else{ %>
+        <div class="w-full text-center mb-4">
+          <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800"
+            role="alert">
+            <span class="font-medium"><%= flasherr %></span>
+          </div>
+        </div>
+        <% }; %>
+
+        <div class="menu">
+  
+
+
+<script src="../path/to/flowbite/dist/flowbite.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+</div>
+          
+            <div class="s">
+                <!-- <div class="shakil">
+                    <img src="/assets/newspaper/profile.jpg" class="l" alt="">
+                   </div> -->
+               </div>
+                  <h2 class="rt">Wc-news </h2>
+            
+            <div class="sh"><h2 class="p-3" style="color:black; font-size:40px ; background: rgba(0, 0, 0, 0.3); display: inline-block; border-radius: 20px 0px 20px 0px;">Welcome to our web site</h2>
+            </div>
+               
+           </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- cricket -->
+<div class="headw">
+  <h1 class="text-3xl font-bold p-3" style="text-align: center; padding-top: 30px;">News</h1>
+  <div class="mydd">
+      <p class="moon"></p>
+  </div>
+</div>
+
+<div class="colam">
+  <div class="container">
+      <div class="row">
+        <% if(posts){ posts.forEach(function(post){ %>
+          <div class="col-lg-3">
+              <a href="<%= baseUrl %>/news/<%= post.slug %>">
+                <div class="all">
+                    <div class="image">
+                        <a href=""> <img src="<%= baseUrl %>/uploads/<%= post.featured_image %>" class="zx" alt="" width="250px" 
+                            height="100px">
+                          </a>
+                    </div>
+                    <div class="ink">
+                        <a href="<%= baseUrl %>/news/<%= post.slug %>"><p><b><%= post.title %></b></p></a>
+                        
+                    </div>
+                </div>
+              </a>
+
+
+          </div>
+          <% }); }; %>
+
+
+          
+      </div>
+  </div>
+</div>
+      </div>
+      <!-- Main -->
+      <!-- footer -->
+      <div class="w-full"><%- include('footer'); -%></div>
+      <!-- footer -->
+    </div>
+
+    <script src="./assets/js/flowbite.js"></script>
+  </body>
+
+</html>

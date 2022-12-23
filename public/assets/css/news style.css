@@ -1,0 +1,129 @@
+.l{
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 20px;
+    
+}
+.shakil{
+    margin-left: 20px;
+}
+.sh{
+   background: url(/assets/img/banar.jpg)center ;
+   padding: 200px;
+   background-attachment: fixed;
+
+
+   
+
+}
+.ff{
+    font-size: 30px;
+    color:blueviolet;
+}
+.hu{
+    height: auto;
+    width: 300px;
+    margin-left:200px;
+    box-shadow: 3px 3px 3px 3px;
+    transition: 1s;
+    box-shadow: 3px 3px 3px 3px;
+
+    
+}
+.ttt{
+    height: auto;
+    width: 0px;
+   
+    margin-top: 40px;
+}
+.jit{
+   margin-left:150px;
+   
+}
+.good{
+    font-style: 30px;
+    margin-right: 150px;
+}
+.how{
+    height: auto;
+    width: 400px;
+   margin-right: 200px;
+    padding: 40px;
+}
+.pq{
+    height: 250px;
+    width: 300px;
+    
+    margin-right: 15px;
+    
+    box-shadow: 4px 4px 4px 4px;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px;
+}
+.wed{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.fut:hover{
+    margin-left:30px;
+   
+    box-shadow: 5px 5px 5px 5px;color: solid white;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px;color: solid black;
+
+
+}
+
+.zui{
+   text-align: center;
+   margin-left: 15px;
+ 
+
+
+}
+.pic{
+    text-align: left;
+}
+.logo{
+    width: 150PX;
+    height: 50px;
+    color: black;
+
+}
+.menu{
+    background: #ccccff;
+
+}
+
+.image:hover{
+    box-shadow: 5px 5px 5px5px;
+    transition: 3s;
+    box-shadow: 5px 5px 5px 5px;
+}
+.ink{
+    margin-top: 30px;
+}
+.shal:hover{
+    padding: 25px;
+     box-shadow: 3px 3px 3px 3px;
+     transition: 1s;
+     box-shadow: 3px 3px 3px 3px;
+}
+.wwww:hover{
+    padding: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    transition: 1s;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.twind{
+    color: black;
+}
+    
+    .rt{
+    text-align: center;
+    font-size: 30px;
+    }
